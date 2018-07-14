@@ -6,6 +6,7 @@ package demo.headfirst.factory;
  */
 public class FactoryMethodDemo {
     public static void main(String[] args) {
+        System.out.println("目前在测试");
         System.out.println("demo");
     }
 }

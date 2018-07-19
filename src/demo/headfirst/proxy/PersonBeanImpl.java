@@ -4,9 +4,10 @@ package demo.headfirst.proxy;
  * Created by alun on 2018/7/19.
  * 小白一个，请勿喷，欢迎各位大神批评指正.
  * 文件描述${TODO}
- * 基本功能：
+ * 基本功能：目标代理接口的实现类
  */
 public class PersonBeanImpl implements PersonBean {
+    //实例属性
     private String name;
     private String intreste;
     private String hotOrNotRate;

@@ -7,10 +7,12 @@ import java.lang.reflect.Method;
  * Created by alun on 2018/7/19.
  * 小白一个，请勿喷，欢迎各位大神批评指正.
  * 文件描述${TODO}
- * 基本功能：
+ * 基本功能：自己的可修的，处理器
  */
 public class OwnerInvcationHandler implements InvocationHandler {
+    //保存一个目标代理的引用
     private PersonBean target;
+    //用于回调目标代理对象的方法
     public OwnerInvcationHandler(PersonBean target){
         this.target=target;
     }
